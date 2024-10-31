@@ -17,5 +17,5 @@ body{
    --primary: var(--light-white);
 }
 .dark{
-    --primary: var(--dark-black)
+    --primary: var(--dark-black);
 }
