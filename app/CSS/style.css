@@ -1,0 +1,114 @@
+html, 
+body,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    background-color: var(--primary);
+}
+
+
+body{
+    background-color: var(--primary);
+}
+
+.light{
+   --primary: var(--light-white);
+   --secondary: var(--light-black);
+}
+.dark{
+    --primary: var(--dark-black);
+    --secondary: var(--dark-black);
+}
+.card{
+    border: 0.5rem outset red;
+    border-radius:2rem;
+    background-color: lightblue;    
+    text-align: center;
+    width: 20rem;
+    margin:10 auto;
+  }
+  #card-anni-1 {
+  
+  transition: transform 0.3s ease;
+  }
+  
+  #card-anni-1:hover {
+  transform: scale(7);
+  }
+  .image{
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 0;
+  background-color: transparent;
+  box-shadow: none;
+  border: 3px double azure;
+  }
+  .card-anni-2 {
+  transition: background-color 0.3s ease;
+  }
+  
+  .card-anni-2:hover {
+  background-image: url(images/whalen.png);
+  }
+  .card-anni-3 {
+  transition: transform 2s ease;
+  }
+  
+  .card-anni-3:hover {
+  transform: rotate(719deg);
+  }
+  .card-anni-4:hover{
+  animation: wave 3s ease-in-out;
+  }
+  @keyframes wave{
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(-100rem);
+    }
+  }
+  .card-anni-5 {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card-anni-5:hover {
+    box-shadow: 0 5rem 7rem rgb(116, 57, 3);
+  }
+  
+  
+  .card-anni-9:hover{
+    transform: rotateY(180deg);
+    transition: transform 0.6s;
+  }
+  .card{
+    width: 20%;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0);
+    background-color: ;
+  }
+  
+  .container{
+  display: flex;
+  width: 90%;
+  margin: 2.5rem auto;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: ;
+  }
+  
+  .protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", Arial, sans-serif
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1 {
+      text-align: center;
+      color: rgba(128, 97, 97, 0.984);
+  
+    }
